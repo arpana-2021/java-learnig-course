@@ -1,6 +1,6 @@
 package InterfaceExampl;
 
-interface MyInterface3{  
+interface MyInterface5{  
 	 
     default void newMethod(){  
         System.out.println("Newly added default method");  
@@ -14,7 +14,7 @@ interface MyInterface2{
     }  
     void disp(String str);  
 } 
-public class Lesson3 implements MyInterface3, MyInterface2{ 
+public class Lesson3 implements MyInterface5, MyInterface2{ 
 	// implementing abstract methods
     public void existingMethod(String str){           
         System.out.println("String is: "+str);  
